@@ -1,0 +1,38 @@
+[
+    {
+        "section": "E Chords",
+        "description": "These chords are played in open position, and generally include open strings.",
+        "chords": [
+            {
+                "name": "E",
+                "chord": [[1, 0], [2, 0], [3, 1, 1], [4, 2, 3], [5, 2, 2], [6, 0]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "Em",
+                "chord": [[1, 0], [2, 0], [3, 0], [4, 2, 3], [5, 2, 2], [6, 0]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "E7",
+                "chord": [[1, 0], [2, 0], [3, 1, 1], [4, 0], [5, 2, 2], [6, 0]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "Em7",
+                "chord": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 2, 2], [6, 0]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "Eadd9",
+                "chord": [[1, 2, 4], [2, 0], [3, 1, 1], [4, 2, 3], [5, 2, 2], [6, 0]],
+                "position": 0,
+                "barres": []
+            }
+        ]
+    }
+]

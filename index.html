@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Chord Library</title>
+    <meta name="description" content="Find out how to play a certain chord.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- toolbar -->
+    <header>
+        <h1 title="Guitar Chord Finder">Guitar Chord Libray</h1>
+        <!-- nav -->
+        <nav class="horizontal-nav">
+            <ul id="main-nav">
+                <li><a href="#" id="chord-finder" class="nav-item active" title="Chord Finder\Library">Chord Finder</a></li>
+                <li style="border-right: 1px solid #ccc; margin-right: 10px; margin-left: 10px;"></li>
+                <li><a href="#" id="about-chord" class="nav-item" title="About Chord">About Chord</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content -->
+    <div id="content-container">
+        <div id="chord-finder-content">
+            <iframe src="chord-finder.html" frameborder="0" style="width: 100%; height: 1000px;"></iframe>
+        </div>
+        <div id="about-chord-content" style="display: none;">
+            <iframe src="about-chord.html" frameborder="0" style="width: 100%; height: 800px;"></iframe>
+        </div>
+    </div>
+    <!-- copyrighter -->
+    <footer>
+        <p>&copy; 2025 Guitar Chord Library. All rights reserved.</p>
+    </footer>
+    <script type="module">
+        // nav click event
+        const navItems = document.querySelectorAll('.nav-item');
+        const chordFinderContent = document.getElementById('chord-finder-content');
+        const aboutChordContent = document.getElementById('about-chord-content');
+
+        function handleNavClick(e, targetContent) {
+            e.preventDefault();
+
+            [chordFinderContent, aboutChordContent].forEach(el => {
+                el.style.display = el === targetContent ? 'block' : 'none';
+            });
+
+            navItems.forEach(item => {
+                item.classList.toggle('active', item === e.currentTarget);
+            });
+        }
+
+        document.getElementById('chord-finder').addEventListener('click', (e) => {
+            handleNavClick(e, chordFinderContent);
+        });
+
+        document.getElementById('about-chord').addEventListener('click', (e) => {
+            handleNavClick(e, aboutChordContent);
+        });
+    </script>
+</body>
+
+</html>

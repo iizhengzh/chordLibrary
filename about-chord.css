@@ -1,0 +1,24 @@
+.chord-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chord-section h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.chord-section p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.source-note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 2rem;
+    text-align: center;
+}

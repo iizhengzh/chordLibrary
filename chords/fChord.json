@@ -1,0 +1,38 @@
+[
+    {
+        "section": "F Chords",
+        "description": "These chords are played in open position, and generally include open strings.",
+        "chords": [
+            {
+                "name": "F",
+                "chord": [[3, 2, 2], [4, 3, 4], [5, 3, 3]],
+                "position": 0,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Fm",
+                "chord": [[4, 3, 4], [5, 3, 3]],
+                "position": 0,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "F7",
+                "chord": [[3, 2, 2], [5, 3, 3]],
+                "position": 0,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Fm7",
+                "chord": [[5, 3]],
+                "position": 0,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Fadd9",
+                "chord": [[4, 3]],
+                "position": 0,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "section": "#A / bB Chords",
+        "description": "These chords are played in open position, and generally include open strings.",
+        "chords": [
+            {
+                "name": "#A",
+                "chord": [[1, 1, 1], [2, 3, 4], [3, 3, 3], [4, 3, 2], [5, 1, 1], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "#Am",
+                "chord": [[1, 1, 1], [2, 2, 2], [3, 3, 3], [4, 3, 4], [5, 1, 1], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "#A7",
+                "chord": [[1, 1, 1], [2, 3, 4], [3, 1, 1], [4, 3, 3], [5, 1, 1], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "#Am7",
+                "chord": [[1, 1, 1], [2, 2, 2], [3, 1, 1], [4, 3, 3], [5, 1, 1], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "#A+5",
+                "chord": [[1, 2, 2], [2, 3, 4], [3, 3, 3], [4, 0], [5, 1, 1], [6, "x"]],
+                "position": 0,
+                "barres": []
+            }
+        ]
+    }
+]

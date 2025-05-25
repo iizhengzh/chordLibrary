@@ -1,0 +1,38 @@
+[
+    {
+        "section": "B Chords",
+        "description": "These chords are played in open position, and generally include open strings.",
+        "chords": [
+            {
+                "name": "B",
+                "chord": [[2, 3, 2], [3, 3, 3], [4, 3, 2], [6, "x"]],
+                "position": 2,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Bm",
+                "chord": [[2, 2, 2], [3, 3, 4], [4, 3, 3], [6, "x"]],
+                "position": 2,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "B7",
+                "chord": [[2, 3, 4], [4, 3, 3], [6, "x"]],
+                "position": 2,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Bm7",
+                "chord": [[2, 2, 2], [4, 3, 3], [6, "x"]],
+                "position": 2,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            },
+            {
+                "name": "Badd9",
+                "chord": [[1, 4, 4], [3, 3, 2], [5, "x"], [6, 4, 3]],
+                "position": 4,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            }
+        ]
+    }
+]

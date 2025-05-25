@@ -1,0 +1,38 @@
+[
+    {
+        "section": "D Chords",
+        "description": "These chords are played in open position, and generally include open strings.",
+        "chords": [
+            {
+                "name": "D",
+                "chord": [[1, 2, 2], [2, 3, 3], [3, 2, 1], [4, 0], [5, "x"], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "Dm",
+                "chord": [[1, 1, 1], [2, 3, 3], [3, 2, 2], [4, 0], [5, "x"], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "D7",
+                "chord": [[1, 2, 3], [2, 1, 1], [3, 2, 2], [4, 0], [5, "x"], [6, "x"]],
+                "position": 0,
+                "barres": []
+            },
+            {
+                "name": "Dmaj7",
+                "chord": [[4, 0], [5, "x"], [6, "x"]],
+                "position": 0,
+                "barres": [{"fromString": 3, "toString": 1, "fret": 2}]
+            },
+            {
+                "name": "Dadd9",
+                "chord": [[2, 4, 4], [4, 0], [5, "x"], [6, "x"]],
+                "position": 2,
+                "barres": [{"fromString": 6, "toString": 1, "fret": 1}]
+            }
+        ]
+    }
+]

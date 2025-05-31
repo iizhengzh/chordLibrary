@@ -2,70 +2,168 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Chord</title>
-    <meta name="description"
-        content="Learn the fundamentals of music chords, including triads, seventh chords, inversions, and more. Explore chord notation and theory to enhance your musical knowledge.">
-    <link rel="stylesheet" href="css/about-chord.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Chord</title>
+  <meta name="description"
+    content="Learn the fundamentals of music chords, including types, notation, function, inversions, and more. Explore chord theory to deepen your understanding of harmony." />
+  <link rel="stylesheet" href="css/about-chord.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    .chord-section {
+      margin-bottom: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .source-note {
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="chord-section">
-        <h2>What is a Chord?</h2>
-        <p>A chord is a harmonic unit in music theory, consisting of three or more notes played simultaneously. Chords
-            form the foundation of harmony in music and are essential for composition, performance, and analysis.</p>
-    </div>
+  <div class="chord-section">
+    <h2>What is a Chord?</h2>
+    <p>A chord is a group of three or more different notes played simultaneously. These notes form a harmonic structure that gives music depth and emotion. Most chords are built by stacking intervals of thirds above a root note. Chords are used to establish tonality, create progressions, and support melodies.</p>
+  </div>
 
-    <div class="chord-section">
-        <h2>Chord Notation</h2>
-        <p>Chords are typically notated using chord symbols, such as C (C major), Cm (C minor), C7 (C dominant seventh),
-            etc. These symbols provide a quick way to represent harmonic structures.</p>
-    </div>
+  <div class="chord-section">
+    <h2>Chord Notation</h2>
+    <p>Chord symbols are a shorthand used in lead sheets and chord charts to represent chords. Each symbol contains a root letter and optional suffixes that define the chord type:</p>
+    <ul>
+      <li><strong>Major:</strong> C</li>
+      <li><strong>Minor:</strong> Cm or C-</li>
+      <li><strong>Dominant 7th:</strong> C7</li>
+      <li><strong>Major 7th:</strong> Cmaj7</li>
+      <li><strong>Minor 7th:</strong> Cm7 or C-7</li>
+      <li><strong>Suspended:</strong> Csus2, Csus4</li>
+      <li><strong>Augmented:</strong> Caug or C+</li>
+      <li><strong>Diminished:</strong> Cdim</li>
+    </ul>
+  </div>
 
-    <div class="chord-section">
-        <h2>Triads</h2>
-        <p>Triads are three-note chords consisting of a root, third, and fifth. The four main types are major, minor,
-            diminished, and augmented triads.</p>
-    </div>
+  <div class="chord-section">
+    <h2>Seventh Chords</h2>
+    <p>Seventh chords are four-note chords formed by adding a seventh interval above the root. They add harmonic complexity and are widely used in jazz, blues, and classical music. Common seventh chords include:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Chord Type</th>
+          <th>Symbol</th>
+          <th>Formula</th>
+          <th>Example (C root)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Major 7th</td>
+          <td>Cmaj7</td>
+          <td>1 - 3 - 5 - 7</td>
+          <td>C - E - G - B</td>
+        </tr>
+        <tr>
+          <td>Dominant 7th</td>
+          <td>C7</td>
+          <td>1 - 3 - 5 - ♭7</td>
+          <td>C - E - G - B♭</td>
+        </tr>
+        <tr>
+          <td>Minor 7th</td>
+          <td>Cm7</td>
+          <td>1 - ♭3 - 5 - ♭7</td>
+          <td>C - E♭ - G - B♭</td>
+        </tr>
+        <tr>
+          <td>Half-Diminished</td>
+          <td>Cm7♭5 or Cø</td>
+          <td>1 - ♭3 - ♭5 - ♭7</td>
+          <td>C - E♭ - G♭ - B♭</td>
+        </tr>
+        <tr>
+          <td>Fully Diminished</td>
+          <td>C°7</td>
+          <td>1 - ♭3 - ♭5 - ♭♭7</td>
+          <td>C - E♭ - G♭ - A</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <div class="chord-section">
-        <h2>Seventh Chords</h2>
-        <p>Seventh chords add a fourth note to triads, creating richer harmonic textures. Common types include major
-            seventh, minor seventh, and dominant seventh chords.</p>
-    </div>
+  <div class="chord-section">
+    <h2>Altered Chords</h2>
+    <p>Altered chords are chords that include tones outside the standard major or minor scale. They often appear in jazz and modern music to introduce tension or color. Types include:</p>
+    <ul>
+      <li><strong>Augmented Chord:</strong> Built with a raised fifth (C - E - G#)</li>
+      <li><strong>Diminished Chord:</strong> Built with a lowered third and fifth (C - E♭ - G♭)</li>
+      <li><strong>Suspended Chords:</strong> Replace the third with the second or fourth (Csus2: C - D - G, Csus4: C - F - G)</li>
+      <li><strong>Altered Dominant:</strong> Include raised or lowered fifths or ninths (C7♭9, C7♯5)</li>
+    </ul>
+  </div>
 
-    <div class="chord-section">
-        <h2>Altered Chords</h2>
-        <p>Altered chords modify standard chord structures by raising or lowering certain intervals, creating unique
-            harmonic colors. Examples include augmented, diminished, and suspended chords.</p>
-    </div>
+  <div class="chord-section">
+    <h2>Inversions</h2>
+    <p>Chord inversions occur when a note other than the root is played in the bass. This changes the chord's sound and can smooth harmonic transitions. For example:</p>
+    <ul>
+      <li><strong>Root position:</strong> C - E - G (C is in the bass)</li>
+      <li><strong>1st Inversion:</strong> E - G - C (E is in the bass)</li>
+      <li><strong>2nd Inversion:</strong> G - C - E (G is in the bass)</li>
+    </ul>
+    <p>Inversions are useful for voice leading and creating melodic bass lines.</p>
+  </div>
 
-    <div class="chord-section">
-        <h2>Inversions</h2>
-        <p>Chord inversions rearrange the order of notes within a chord, placing notes other than the root in the bass.
-            This technique adds variety to harmonic progressions.</p>
-    </div>
+  <div class="chord-section">
+    <h2>Chord Function</h2>
+    <p>In tonal harmony, chords serve different functions depending on their role in a key. The three main functions are:</p>
+    <ul>
+      <li><strong>Tonic (I):</strong> Provides a sense of resolution and rest.</li>
+      <li><strong>Subdominant (IV or ii):</strong> Moves away from the tonic and builds toward tension.</li>
+      <li><strong>Dominant (V or vii°):</strong> Creates tension that resolves back to the tonic.</li>
+    </ul>
+    <p>For example, in C major: C (I) → F (IV) → G (V) → C (I) forms a complete and satisfying progression.</p>
+  </div>
 
-    <div class="source-note">
-        <p>Source: Information gathered from various online resources. Please note that while we strive for accuracy,
-            there may be errors or omissions. Corrections and suggestions are welcome.</p>
-    </div>
-    <div style="display: none;">
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HT4N9BJV1H"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
+  <div class="source-note">
+    <p>Source: Information gathered from verified music theory texts and online education resources. We aim for accuracy and clarity—suggestions are welcome.</p>
+  </div>
 
-            gtag('config', 'G-HT4N9BJV1H');
-        </script>
-        <!-- Cloudflare Web Analytics -->
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
-            data-cf-beacon='{"token": "f387f8394e4b4ff9bf7a549af857e783"}'></script>
-        <!-- End Cloudflare Web Analytics -->
-    </div>
+  <div style="display: none;">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HT4N9BJV1H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-HT4N9BJV1H');
+    </script>
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+      data-cf-beacon='{"token": "f387f8394e4b4ff9bf7a549af857e783"}'></script>
+  </div>
 </body>
 
 </html>

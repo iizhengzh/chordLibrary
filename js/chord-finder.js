@@ -1,7 +1,7 @@
 const ChordBox = vexchords.ChordBox;
 const chords = [];
 function init(chart) {
-    var container = document.getElementById('chordTest');
+    var container = document.getElementById('chordList');
     container.innerHTML = '';
     // Display preset chords (open chords)
     for (var i = 0; i < chart.length; ++i) {

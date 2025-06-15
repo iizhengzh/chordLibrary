@@ -12,16 +12,42 @@
 </head>
 
 <body>
-    <div class="message">
-        <p>Hey! If you find any incorrect data or missing information during use, feel free to contact us. Additionally,
-            if you have any ideas for new features, don't hesitate to share them. Let's make this website even better
-            together!</p>
+    <!-- toolbar -->
+    <header>
+        <h1 title="Guitar Chord Finder"><img alt="guitar chords library and finder" src="guitar.png"
+                style="margin-bottom: 10px; margin-left: 10px; width: 50px; height: 50px; vertical-align: middle;"
+                alt="Guitar Icon">Guitar Chords Libray</h1>
+        <!-- nav -->
+        <nav class="horizontal-nav">
+            <ul id="main-nav">
+                <li><a href="chord-finder.html" id="chord-finder" class="nav-item" title="Chords Finder\Library">Chords
+                        Finder</a></li>
+                <li style="border-right: 1px solid #ccc; margin-right: 10px; margin-left: 10px;"></li>
+                <li><a href="about-chord.html" id="about-chord" class="nav-item" title="About Chord">About Chords</a></li>
+                <li style="border-right: 1px solid #ccc; margin-right: 10px; margin-left: 10px;"></li>
+                <li><a href="contact-us.html" id="contact-us" class="nav-item active" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content -->
+    <div id="content-container" style="height: 500px;">
+        <div class="message">
+            <p>Hey! If you find any incorrect data or missing information during use, feel free to contact us.
+                Additionally,
+                if you have any ideas for new features, don't hesitate to share them. Let's make this website even
+                better
+                together!</p>
+        </div>
+        <div class="contact-info">
+            <!-- <p><i class="fas fa-envelope icon"></i> Email: <a href="mailto:example@example.com">example@example.com</a></p> -->
+            <p><i class="fab fa-github icon"></i> GitHub: <a href="https://github.com/iizhengzh/chordLibrary"
+                    target="_blank" rel="noopener noreferrer">https://github.com/iizhengzh/chordLibrary</a></p>
+        </div>
     </div>
-    <div class="contact-info">
-        <!-- <p><i class="fas fa-envelope icon"></i> Email: <a href="mailto:example@example.com">example@example.com</a></p> -->
-        <p><i class="fab fa-github icon"></i> GitHub: <a
-                href="https://github.com/iizhengzh/chordLibrary" target="_blank" rel="noopener noreferrer">https://github.com/iizhengzh/chordLibrary</a></p>
-    </div>
+    <!-- copyrighter -->
+    <footer>
+        <p>&copy; 2025 Guitar Chords Library. All rights reserved.</p>
+    </footer>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HT4N9BJV1H"></script>
     <script>

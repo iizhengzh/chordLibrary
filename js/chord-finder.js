@@ -29,7 +29,7 @@ function createChordElement(chordStruct) {
     return chordbox;
 }
 
-const navLinks = document.querySelectorAll('nav a');
+const navLinks = document.querySelectorAll('nav a[href="#"]');
 
 navLinks.forEach(link => {
     link.addEventListener('click', function (e) {
